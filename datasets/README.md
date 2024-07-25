@@ -6,10 +6,8 @@
     └── Your_Dataset
          ├── test
          |     ├── input
-         |     └── target
-         |     └── ffthigh      
+         |     └── target     
          └── train
                ├── input
-               └── target
-               └── ffthigh      
+               └── target  
   ```  
