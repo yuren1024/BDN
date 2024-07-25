@@ -1,0 +1,27 @@
+# Training configuration
+GPU: [0,1]
+
+# save model name
+MODEL:
+  MODE: 'your/model/name'
+
+# Optimization arguments.
+OPTIM:
+  BATCH: 16
+  EPOCHS: 200
+  LR_INITIAL: 2e-3
+  LR_MIN: 1e-6
+  BETA1: 0.9
+  
+# training setup
+TRAINING:
+  VAL_AFTER_EVERY: 1
+  RESUME: False
+  TRAIN_PS: 256
+  VAL_PS: 256
+  # path to training data
+  TRAIN_DIR: '../your/training/data/path'       
+  # path to validation data
+  VAL_DIR: '../your/validation/data/path' 
+  # path to save models and images
+  SAVE_DIR: './checkpoints'     
