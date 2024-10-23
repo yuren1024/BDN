@@ -1,4 +1,4 @@
-#[BDNet]
+#[BDN] Enhanced stimulated Raman and fluorescence imaging by single-frame trained BDN
 
 ***
 > Abstract : pass 
