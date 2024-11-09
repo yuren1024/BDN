@@ -1,14 +1,14 @@
 #[BDN] Enhanced stimulated Raman and fluorescence imaging by single-frame trained BDN
 
 ***
-> Abstract : pass 
+> Abstract: pass 
 
 ## Train  
 - Dataset:  
-  The preparation of dataset in more detail, see [datasets/README.md](datasets/README.md).  
+  To prepare the dataset in more detail, please take a look at [datasets/README.md](datasets/README.md).  
   
 - Train:  
-  If the above path and data are all correctly setting, just simply run:  
+  If the above path and data are all correctly set, just simply run the following:  
   ```
   python train.py
   ```
@@ -31,5 +31,5 @@
 ## Citation  
 If you use BDNet, please consider citing:  
 ```
-pass
+X. Tang, Y. Zhang, X. Huang, H. Lee, and D. Zhang, "Enhanced stimulated Raman and fluorescence imaging by single-frame trained BDN," Opt. Express  32, 40593-40604 (2024).
 ```
